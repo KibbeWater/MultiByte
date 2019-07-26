@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="MultiByte.exe" version="1.0.0.7" publicKeyToken="62f835f74764aac9" language="en" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="MultiByte.ico" asmv2:publisher="Cyber" asmv2:product="MultiByte" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="MultiByte" version="1.0.0.7" publicKeyToken="62F835F74764AAC9" language="neutral" processorArchitecture="msil" />
+    <commandLine file="MultiByte.exe" parameters="" />
+  </entryPoint>
+  <co.v1:useManifestForTrust xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MultiByte.exe" size="336456">
+      <assemblyIdentity name="MultiByte" version="1.0.0.7" publicKeyToken="62F835F74764AAC9" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>+P3zznyRK+POkkHYrHURa6xDzP45WFAL99cg97qHZjg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="MultiByte.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="MultiByte.ico" size="104092">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Iq7FQoYYaX5HspKX3eV8S9WRpf+1ODtceu/nOyBNkOo=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN={43433BA5-9C16-4ACE-82BA-03D3B981D0F0}" issuerKeyHash="7ec3bdc96aed7e52b62c1a77ec69acd37bdf5676" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>rySC5rXBaQFbER82m3q9g1CewO2mhSqvdzhQgSa0lAk=</DigestValue></Reference></SignedInfo><SignatureValue>G/RQc+QfWXGF1/Um7cnky3Tv6qKY43QQk7yF1LVhf/l4jRcqJArFf4Zh+VQuxh0HMZXn3wHyizxw/qL6pOf4Ne9sWQpxDzxPxmPOGgKMq+PNfp3zoNVJGFyNYJvh1RrXmKsmOQEygMXKdw4sJ0W++5AEZ39Dt/1Yyy/s8BE3Vyo=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>x3HoCVNh2h04y8wkS82fKK57O3BDeyf9HSULOvuEw16j7Hzh7qJ3MhEb/Th2QDF/8IkA+K1xBVTFL3VXcAZPMFYZIY7jCfaTCvOGN8Wn6wlFkochRVhZd5VYWl4Lkla3uWXccXmhaXBV0flgn5zAqbo5dbQBtxerwiZwgKcfKKE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="0994b42681503877af2a85a6edc09e5083bd7a9b361f115b0169c1b5e68224af" Description="" Url=""><as:assemblyIdentity name="MultiByte.exe" version="1.0.0.7" publicKeyToken="62f835f74764aac9" language="en" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN={43433BA5-9C16-4ACE-82BA-03D3B981D0F0}</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>wC+eIW6grkwqJB1RbczXTagm6dCwoylZk5VlOrcCy/A=</DigestValue></Reference></SignedInfo><SignatureValue>d0GAsYw6AIpff64ZdmPLOC3w+KVY/Ep2gUaukWmdkqM6C1/VtnIldI6dlzcQqP0B8+TAd7/lRMF3WSly+dJOep+aYDbyzc7G9xlf+iZ69wI0FWNBAXiuhBGQCM7d7X9uhxTVVj7pRlHNKdXL4KpMBDsKzKSgtsWMgyv1oy6SwP0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>x3HoCVNh2h04y8wkS82fKK57O3BDeyf9HSULOvuEw16j7Hzh7qJ3MhEb/Th2QDF/8IkA+K1xBVTFL3VXcAZPMFYZIY7jCfaTCvOGN8Wn6wlFkochRVhZd5VYWl4Lkla3uWXccXmhaXBV0flgn5zAqbo5dbQBtxerwiZwgKcfKKE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICMTCCAZqgAwIBAgIQItMV+cdvQrZBnE2e+I1NTzANBgkqhkiG9w0BAQsFADBXMVUwUwYDVQQDHkwAewA0ADMANAAzADMAQgBBADUALQA5AEMAMQA2AC0ANABBAEMARQAtADgAMgBCAEEALQAwADMARAAzAEIAOQA4ADEARAAwAEYAMAB9MB4XDTE5MDcwOTE1MTYxMVoXDTIwMDcwODIxMTYxMVowVzFVMFMGA1UEAx5MAHsANAAzADQAMwAzAEIAQQA1AC0AOQBDADEANgAtADQAQQBDAEUALQA4ADIAQgBBAC0AMAAzAEQAMwBCADkAOAAxAEQAMABGADAAfTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAx3HoCVNh2h04y8wkS82fKK57O3BDeyf9HSULOvuEw16j7Hzh7qJ3MhEb/Th2QDF/8IkA+K1xBVTFL3VXcAZPMFYZIY7jCfaTCvOGN8Wn6wlFkochRVhZd5VYWl4Lkla3uWXccXmhaXBV0flgn5zAqbo5dbQBtxerwiZwgKcfKKECAwEAATANBgkqhkiG9w0BAQsFAAOBgQCU5nCn7iWzo7ia5bCV/mshN8Or3Ed9xJ5Qsn5PoFUacyR/D2bh63xOgESum/0lFRDu5uCEmngIEoAGC6mQ6U+1TAIXBWPf7R/pZsygMMT5n1rKzzENhOldjcdCvMO67GIRCaREKXPZ7pUwx6jb/+168nZTLauImbPF4LsVH2Gx9Q==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

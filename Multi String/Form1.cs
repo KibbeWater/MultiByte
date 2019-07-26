@@ -121,7 +121,13 @@ namespace Multi_String
         {
             //if(Reverts[0] != null)
             //Array.Clear(Reverts,0,Reverts.Length);
-            var amount = 1;
+            var amount = 0;
+            foreach(string s in SafeFileNames)
+            {
+                amount++;
+            }
+            Reverts = new string[amount];
+            var i = 0;
             foreach (string FileName in FileNames)
             {
                 var content = File.ReadAllText(FileName);
@@ -129,8 +135,12 @@ namespace Multi_String
                 revert.fileName = FileName;
                 revert.content = content;
                 string jsonified = JsonConvert.SerializeObject(revert);
-                content.Replace(replace_text.Text,replace_with.Text);
-                Reverts[amount] = jsonified;
+                var fileText = content.Replace(replace_text.Text,replace_with.Text);
+                File.WriteAllText(FileName,fileText);
+                Reverts[i] = jsonified;
+                i++;
+                Console.WriteLine("Replaced a string in " + FileName + ",   Changed to \"" + fileText + "\"");
+                Console.WriteLine("Old value: " + replace_text.Text + " New Value: " + replace_with.Text);
             }
         }
 
