@@ -1,0 +1,17 @@
+C:\Users\thecy\source\repos\MultiByte\Multi String\bin\Debug\MultiByte.exe.config
+C:\Users\thecy\source\repos\MultiByte\Multi String\bin\Debug\MultiByte.exe.manifest
+C:\Users\thecy\source\repos\MultiByte\Multi String\bin\Debug\MultiByte.application
+C:\Users\thecy\source\repos\MultiByte\Multi String\bin\Debug\MultiByte.exe
+C:\Users\thecy\source\repos\MultiByte\Multi String\bin\Debug\MultiByte.pdb
+C:\Users\thecy\source\repos\MultiByte\Multi String\obj\Debug\MultiByte.csprojAssemblyReference.cache
+C:\Users\thecy\source\repos\MultiByte\Multi String\obj\Debug\Multi_String.Form1.resources
+C:\Users\thecy\source\repos\MultiByte\Multi String\obj\Debug\MultiByte.Properties.Resources.resources
+C:\Users\thecy\source\repos\MultiByte\Multi String\obj\Debug\MultiByte.csproj.GenerateResource.cache
+C:\Users\thecy\source\repos\MultiByte\Multi String\obj\Debug\MultiByte.csproj.CoreCompileInputs.cache
+C:\Users\thecy\source\repos\MultiByte\Multi String\obj\Debug\MultiByte.exe.manifest
+C:\Users\thecy\source\repos\MultiByte\Multi String\obj\Debug\MultiByte.application
+C:\Users\thecy\source\repos\MultiByte\Multi String\obj\Debug\MultiByte.exe
+C:\Users\thecy\source\repos\MultiByte\Multi String\obj\Debug\MultiByte.pdb
+C:\Users\thecy\source\repos\MultiByte\Multi String\bin\Debug\Newtonsoft.Json.dll
+C:\Users\thecy\source\repos\MultiByte\Multi String\bin\Debug\Newtonsoft.Json.xml
+C:\Users\thecy\source\repos\MultiByte\Multi String\obj\Debug\MultiByte.csproj.CopyComplete

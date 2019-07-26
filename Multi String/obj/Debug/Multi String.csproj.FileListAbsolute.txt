@@ -1,0 +1,10 @@
+C:\Users\thecy\source\repos\Multi String\Multi String\bin\Debug\Multi String.exe.config
+C:\Users\thecy\source\repos\Multi String\Multi String\bin\Debug\Multi String.exe
+C:\Users\thecy\source\repos\Multi String\Multi String\bin\Debug\Multi String.pdb
+C:\Users\thecy\source\repos\Multi String\Multi String\obj\Debug\Multi String.csprojAssemblyReference.cache
+C:\Users\thecy\source\repos\Multi String\Multi String\obj\Debug\Multi_String.Form1.resources
+C:\Users\thecy\source\repos\Multi String\Multi String\obj\Debug\Multi_String.Properties.Resources.resources
+C:\Users\thecy\source\repos\Multi String\Multi String\obj\Debug\Multi String.csproj.GenerateResource.cache
+C:\Users\thecy\source\repos\Multi String\Multi String\obj\Debug\Multi String.csproj.CoreCompileInputs.cache
+C:\Users\thecy\source\repos\Multi String\Multi String\obj\Debug\Multi String.exe
+C:\Users\thecy\source\repos\Multi String\Multi String\obj\Debug\Multi String.pdb
